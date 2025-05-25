@@ -6,6 +6,11 @@ import java.util.List;
  */
 public interface AnimalAbstractFactory {
     /**
+     * gets animal era
+     * @return era
+     */
+    String getEra();
+    /**
      * creates land animals
      * @return land animals
      */
