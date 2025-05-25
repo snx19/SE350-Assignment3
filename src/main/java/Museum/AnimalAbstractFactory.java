@@ -9,11 +9,12 @@ public interface AnimalAbstractFactory {
      * @return era
      */
     String getEra();
+
     /**
      * creates land animals
      * @return land animals
      */
-    List<SkyAnimal> createLandAnimals();
+    List<LandAnimal> createLandAnimals();
 
     /**
      * creates sea animals
